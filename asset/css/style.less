@@ -250,7 +250,7 @@ a{
 			// }
 
 			
-			li:last-child{
+			> li:last-child{
 				border: 0;
 				margin-bottom: 0;
 				padding-bottom: 0;
@@ -260,7 +260,7 @@ a{
 				}	
 			}
 
-			li{
+			> li{
 				border-bottom: 1px solid #ddd;	
 				padding-bottom: 10px;
 				position: relative;
@@ -273,6 +273,14 @@ a{
 					width: 100%;
 					height: 1px;
 					position: absolute;
+				}
+
+				li{
+					font-size: .85em;
+					border-bottom: 1px solid #ddd;	
+					padding: 10px 0;
+					width: 100%;
+
 				}
 			}
 		}
